@@ -1,3 +1,9 @@
-baseurl = "http://yourSiteHere/"
+baseurl = "http://tolehico.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "tolehi.co"
+author = "tolehico"
+
+[params]
+	facebook = "https://www.facebook.com/t.kamei"
+	twitter = "https://twitter.com/tolehico"
+
