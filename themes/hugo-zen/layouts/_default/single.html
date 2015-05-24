@@ -1,9 +1,24 @@
 {{ partial "header.html" . }}
 
-	<main role="main">
+	<main role="main" class="main">
 		<article itemscope itemtype="http://schema.org/BlogPosting">
-			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+			{{ if isset .Params "eyecatch" }}
+			<section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/{{ .Params.eyecatch }});">
+	        {{ else }}
+	        <section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);">
+	        {{ end }}
+    		<div class="masthead__hint">
+      			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
+            	<em>Nom Nom Nom{{ .Title }}</em>
+            	<div class="author text__center">
+        			<a class="profile-avatar" href="/"></a>
+        			<em><span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span></em>
+      			</div>
+    		</div>
+  </section>
+
+			
+			
 			<section itemprop="entry-text">
 				{{ .Content }}
 			</section>

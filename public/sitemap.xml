@@ -3,8 +3,23 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2015-05-06T14:56:33+09:00</lastmod>
+    <lastmod>2015-05-25T06:10:29+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/my-new-postaa/</loc>
+    <lastmod>2015-05-25T06:10:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/x</loc>
+    <lastmod>2015-05-25T06:09:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/slushasia_eyecatch.jpg</loc>
+    <lastmod>2015-05-25T05:48:58+09:00</lastmod>
   </url>
   
   <url>

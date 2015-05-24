@@ -6,8 +6,35 @@
     <description>Recent content on tolehi.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2015 14:56:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2015 06:10:29 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>my new postaa</title>
+      <link>http://localhost:1313/post/my-new-postaa/</link>
+      <pubDate>Mon, 25 May 2015 06:10:29 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/my-new-postaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>my new posta</title>
+      <link>http://localhost:1313/x</link>
+      <pubDate>Mon, 25 May 2015 06:09:25 +0900</pubDate>
+      
+      <guid>http://localhost:1313/x</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>my new post</title>
+      <link>http://localhost:1313/slushasia_eyecatch.jpg</link>
+      <pubDate>Mon, 25 May 2015 05:48:58 +0900</pubDate>
+      
+      <guid>http://localhost:1313/slushasia_eyecatch.jpg</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>first</title>
