@@ -3,8 +3,8 @@
 	<main role="main" class="main">
 		<article itemscope itemtype="http://schema.org/BlogPosting">
 			{{ if isset .Params "eyecatch" }}
-			<section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/{{ .Params.eyecatch }});">
-	        {{ else }}
+			<section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}/images/eyecatch/{{ .Params.eyecatch }});">
+			{{ else }}
 	        <section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);">
 	        {{ end }}
     		<div class="masthead__hint">
