@@ -465,6 +465,17 @@ article {
   position: relative;
 }
 
+.masthead__single:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 @media (max-width: 480px){
   .masthead__single {
