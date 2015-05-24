@@ -148,7 +148,7 @@ a {
 
 .header hgroup h1 span a {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: .9rem;
   color: #999;
 }
 
@@ -186,7 +186,7 @@ a {
 
 .cover .headernav li {
   display: inline-block;
-  margin-right: 1.7em;
+  margin-right: 1em;
 }
 .list-none li {
   list-style-type: none!important;
@@ -199,7 +199,7 @@ a {
 
 .cover .headernav li a {
   color: #a6a8ab;
-  font-size: 1.4rem;
+  font-size: .9rem;
   font-weight: 500;
   position: relative;
   z-index: 1;
