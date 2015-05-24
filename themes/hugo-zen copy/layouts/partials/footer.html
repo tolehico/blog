@@ -2,20 +2,13 @@
 	<footer role="contentinfo">
 		<div class="hr"></div>
 		<div class="footer-link">
-			<div class="section-social">
-				<div class="h-container social-links">
-				<ul>
-					<li>{{ with .Site.Params.instagram }}<a href="{{ . }}" target="_blank" class="fa fa-instagram"></a>{{ end }}</li>
-					<li>{{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank" class="fa fa-facebook"></a>{{ end }}</li>
-					<li>{{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" class="fa fa-linkedin"></a>{{ end }}</li>
-				</ul>
-				</div>
-			</div>
-			<div class="copyright">Copyright &copy; {{ .Site.Params.copyright }}</div>
-			<div class="copyright">Tokyo, JAPAN.</div>
+			{{ with .Site.Params.email }}<a href="mailto:{{ . }}" target="_blank">Email</a></span>{{ end }}
+			{{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank">Twitter</a></span>{{ end }}
+			{{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a></span>{{ end }}
+			{{ with .Site.Params.github }}<a href="{{ . }}" target="_blank">GitHub</a></span>{{ end }}
 		</div>
+		<div class="copyright">Copyright &copy; {{ .Site.Params.copyright }}</div>
 	</footer>
-		
 
 </div>
 
