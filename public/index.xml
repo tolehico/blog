@@ -51,11 +51,42 @@
     
     <item>
       <title>my new posta</title>
-      <link>http://localhost:1313/x</link>
+      <link>http://localhost:1313/post/my-new-posta/</link>
       <pubDate>Mon, 25 May 2015 06:09:25 +0900</pubDate>
       
-      <guid>http://localhost:1313/x</guid>
-      <description></description>
+      <guid>http://localhost:1313/post/my-new-posta/</guid>
+      <description>
+
+&lt;p&gt;Hugo is a static site engine written in go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup:fbfc481faa8a2ac5657e2df4a9a3a269&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;photoset-grid&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/post/photo2.jpg&#34; alt=&#34;photo2.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;div:fbfc481faa8a2ac5657e2df4a9a3a269&#34;&gt;&lt;/div&gt;&lt;/h2&gt;
+
+&lt;p&gt;Some fun facts about &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built in &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
+&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

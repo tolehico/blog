@@ -137,9 +137,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2em;
   color: #669ecc;
 }
+/*
 a:visited {
   color: #6a4c96;
 }
+*/
 a {
   color: #4c6296;
   text-decoration: none;
@@ -259,6 +261,7 @@ a {
 
 .entry-title {
   margin-bottom: 0;
+  margin-top: 100px;
 }
 
 .entry-title a {
@@ -473,7 +476,7 @@ article {
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,0.4);
-  z-index: 2;
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;

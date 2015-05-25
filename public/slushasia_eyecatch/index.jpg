@@ -38,8 +38,8 @@
 	<main role="main" class="main">
 		<article itemscope itemtype="http://schema.org/BlogPosting">
 			
-	        <section class="masthead__single text__center" style="background-image: url(http://localhost:1313/static/img/no-eyecatch.png);">
-	        
+			<section class="masthead__single text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo5.jpg);">
+			
     		<div class="masthead__hint">
       			<h1 class="entry-title" itemprop="headline">my new post</h1>
             	<em>Nom Nom Nommy new post</em>
