@@ -5,6 +5,11 @@
 		{{ partial "author.html" . }}
 {{ range .Data.Pages }}
 		<li itemscope itemtype="http://schema.org/Blog">
+			{{ if isset .Params "eyecatch" }}
+			<section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}/images/eyecatch/{{ .Params.eyecatch }});">
+			{{ else }}
+	        <section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);">
+	        {{ end }}
 			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
 		</li>
