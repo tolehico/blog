@@ -27,11 +27,11 @@ Some fun facts about [Hugo](http://hugo.spf13.com)
 * Built in [Go](http://golang.org)
 * Loosely inspired by [Jekyll](http://jekyllrb.com)
 * Primarily developed by [spf13](http://spf13.com) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com)
+* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com) 
 
-
-![photo2.jpg](/images/post/photo2.jpg})
-
+<div class="photoset-grid">
+![photo2.jpg](/images/post/photo2.jpg)
+</div>
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
 
 Thanks for reading!
