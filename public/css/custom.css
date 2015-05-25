@@ -482,6 +482,10 @@ article {
   left: 0;
 }
 
+article .masthead__single:after {
+  z-index: 2;
+}
+
   .masthead__single {
     height: 480px;
   }
