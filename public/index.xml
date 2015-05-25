@@ -32,6 +32,12 @@
 
 &lt;h2 id=&#34;setup:9d1383db63fb6ca6b1ae1a08f1d1ab48&#34;&gt;Setup&lt;/h2&gt;
 
+&lt;p&gt;&lt;div class=&#34;photoset-grid&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/post/photo2.jpg&#34; alt=&#34;photo2.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;div:9d1383db63fb6ca6b1ae1a08f1d1ab48&#34;&gt;&lt;/div&gt;&lt;/h2&gt;
+
 &lt;p&gt;Some fun facts about &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -40,14 +46,6 @@
 &lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
 &lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;div class=&#34;photoset-grid&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/post/photo2.jpg&#34; alt=&#34;photo2.jpg&#34; /&gt;
-
-&lt;/div&gt;
-Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
     </item>
     
