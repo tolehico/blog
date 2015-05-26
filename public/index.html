@@ -44,8 +44,9 @@
 		<h2 class="entry-title" itemprop="headline"><a href="/post/my-new-postaa/">my new postaa</a></h2>
 		<span class="entry-meta"><time itemprop="datePublished" datetime="2015-05-25">May 25, 2015</time></span>
 			
-			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/slushasia_eyecatch.jpg);">
+			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/slushasia_eyecatch.jpg);"></section>
 			
+	       <div class="summary">Hugo is a static site engine written in go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub. Setup Some fun facts about Hugo Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim</div>
 			
 			
 		</li>
@@ -55,8 +56,9 @@
 		<h2 class="entry-title" itemprop="headline"><a href="/post/my-new-posta/">my new posta</a></h2>
 		<span class="entry-meta"><time itemprop="datePublished" datetime="2015-05-25">May 25, 2015</time></span>
 			
-			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo4.jpg);">
+			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo4.jpg);"></section>
 			
+	       <div class="summary">Hugo is a static site engine written in go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub. Setup Some fun facts about Hugo Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim</div>
 			
 			
 		</li>
@@ -66,8 +68,39 @@
 		<h2 class="entry-title" itemprop="headline"><a href="/slushasia_eyecatch.jpg">my new post</a></h2>
 		<span class="entry-meta"><time itemprop="datePublished" datetime="2015-05-25">May 25, 2015</time></span>
 			
-			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo5.jpg);">
+			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo5.jpg);"></section>
 			
+	       <div class="summary"><h1 id="hugoでブログをやってみる:998e98563bf47ddb62011ba7e51f2b7e">hugoでブログをやってみる</h1>
+
+<p>ブログをやってみようと思った時に、ここはRuby書いてる人っぽくjekyllでやってみるか！って思って調べてたら、もっと良さそうなものを見つけた。gitでリポジトリをプッシュするだけで簡単にブログ記事をあげられる＆記事の生成がめっちゃ早いということで評判が良かったので、<a href="http://gohugo.io/">hugo</a>を使ってみることにしました。そして、ドハマりしたのでメモ。</p>
+
+<h2 id="hugoの魅力:998e98563bf47ddb62011ba7e51f2b7e">hugoの魅力</h2>
+
+<h3 id="1-とにかく記事作成が楽:998e98563bf47ddb62011ba7e51f2b7e">1. とにかく記事作成が楽</h3>
+
+<p>最終的にですが、ターミナルから以下の手順だけでGithub pagesにてブログが更新できます。</p>
+
+<pre><code class="language-terminal">$cd ~/blog
+#hugoによって生成されたディレクトリまで移動
+$hugo new post/hugahoge.md
+#新規マークダウンファイルの作成
+$ ./deploy.sh
+#色々なコマンドの入ったシェルスクリプトの実行(コピペで手に入る)
+$ git push origin master
+#hugoによって生成されたディレクトリのリポジトリをgithub pagesのリモートにプッシュ(これはホントはやらなくて良い手順のハズ・・・・)
+</code></pre>
+
+<h3 id="2-ndash-watchコマンドでオートリロード-h3:998e98563bf47ddb62011ba7e51f2b7e">2. &ndash;watchコマンドでオートリロード!!</h3></h3>
+
+<p>hugoでは、以下のコマンドで<code>localhost:1313</code>からプレビューができます。この時、<code>--watch</code>コマンドを利用することでmdファイルを更新する度にブラウザ側のプレビューも自動で更新されます。</p>
+
+<pre><code class="language-terminal">#hugoのルート・ディレクトリから・・・
+$hugo server --watch -t hugo-zen
+#--watchコマンド！
+</code></pre>
+
+<p>これがかなり便利です。いちいちcommand + r する手間が省けるのが素晴らしい。デュアルディスプレイとか<a href="https://itunes.apple.com/jp/app/window-magnet/id441258766?mt=12">window magnet</a>とかで捗ります。</p>
+</div>
 			
 			
 		</li>
@@ -77,8 +110,9 @@
 		<h2 class="entry-title" itemprop="headline"><a href="/post/first/">first</a></h2>
 		<span class="entry-meta"><time itemprop="datePublished" datetime="2015-05-06">May 06, 2015</time></span>
 			
-			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/slushasia_eyecatch.jpg);">
+			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/slushasia_eyecatch.jpg);"></section>
 			
+	       <div class="summary"></div>
 			
 			
 		</li>
@@ -88,8 +122,9 @@
 		<h2 class="entry-title" itemprop="headline"><a href="/post/intro/">intro</a></h2>
 		<span class="entry-meta"><time itemprop="datePublished" datetime="2015-05-06">May 06, 2015</time></span>
 			
-			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo6.jpg);">
+			<section class="masthead__single masthead__index text__center" style="background-image: url(http://localhost:1313//images/eyecatch/photo6.jpg);"></section>
 			
+	       <div class="summary"></div>
 			
 			
 		</li>

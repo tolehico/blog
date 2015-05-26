@@ -482,6 +482,19 @@ article {
   left: 0;
 }
 
+
+.summary {
+    padding: 3rem 20rem 0;
+  }
+
+
+
+@media (max-width: 768px){
+  .summary {
+    padding: 1.5rem 8rem 0;
+  }
+}
+
 article .masthead__single:after {
   z-index: 2;
 }
