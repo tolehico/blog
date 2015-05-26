@@ -28,6 +28,8 @@ $ git push origin master
 #hugoによって生成されたディレクトリのリポジトリをgithub pagesのリモートにプッシュ(これはホントはやらなくて良い手順のハズ・・・・)
 ```
 
+<!--more-->
+
 ### 2. &ndash;watchコマンドでオートリロード!!</h3>
 
 hugoでは、以下のコマンドで``localhost:1313``からプレビューができます。この時、``--watch``コマンドを利用することでmdファイルを更新する度にブラウザ側のプレビューも自動で更新されます。
@@ -40,7 +42,7 @@ $hugo server --watch -t hugo-zen
 
 これがかなり便利です。いちいちcommand + r する手間が省けるのが素晴らしい。デュアルディスプレイとか[window magnet](https://itunes.apple.com/jp/app/window-magnet/id441258766?mt=12)とかで捗ります。
 
-<!--more-->
+
 
 ### 3.Markdown記法で気軽に書いて更新できる
 
