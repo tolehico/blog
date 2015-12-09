@@ -65,6 +65,8 @@ article {
 }
 
 
+
+
 @media (max-width: 40em){
   .header {
     padding: 15px 0 12px;
@@ -313,17 +315,20 @@ a {
 }
 
 .entry-title {
-  margin-bottom: 0;
-  margin-top: 0;
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.065em;
-  color: #fc3768;
   text-transform: uppercase;
-  font-weight: 700;
   max-width: 275px;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  margin: 30px 0 20px;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+  font-weight: bold;
+  width: 75%;
+  line-height: 1.4;
+  color: white;
+  position: relative;
+  z-index: 200;
 }
 
 .entry-title a {
@@ -331,7 +336,6 @@ a {
 }
 
 .entry-meta {
-  font: 300 35px/52px "Open Sans", "open-sans", sans-serif;
   display: inline-block;
   font-size: 10px;
   letter-spacing: 0.1em;
@@ -340,7 +344,7 @@ a {
   font-weight: 700;
   margin-top: 10px;
   text-align: center;
-  color: #A49581;
+  color: white;
 }
 
 
@@ -366,14 +370,21 @@ a {
 
 
 .profile-avatar {
+      width: 32px;
+    height: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    border-radius: 32px;
+    margin: 0 8px 0 0;
   display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
   background: url('/images/logo.jpg');
   background-size: contain;
-  /*box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);*/
+  vertical-align: middle;
 }
+
+
 
 @media (min-width: 720px){
   .profile-avatar {
@@ -447,10 +458,6 @@ h1 {
   font-size: inherit;
 }
 
-h1.entry-title {
-  font-size: 30px;
-}
-
 h2{
   font-weight: inherit;
   font-size: 20px;
@@ -519,7 +526,7 @@ article {
 
 .masthead__single .masthead__hint {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   z-index: 3;
   position: relative;
   text-align: center;
@@ -544,14 +551,28 @@ article {
   display: block;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.3);
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
 }
 
+/* 20151209 add*/
+.cover_inner {
+  padding: 0 10px 25px;
+  width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: left;
 
+}
+
+.cover_date {
+    display: inline;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
 
 
 article .masthead__single:after {
@@ -572,19 +593,14 @@ article .masthead__single:after {
   }
 }
 
-.masthead__single .masthead__hint h1 {
-  margin-bottom: 0;
-  font-size: 2.0rem;
+.author {
+  margin: 0;
 }
 
-.author {
-  position: relative;
-  bottom: -50px;
-  font-size: 1.6rem;
+.author span {
+  font-weight: bold;
 }
-.author em {
-  display: block;
-}
+
 
 .single_content {
   padding-top: 60px;

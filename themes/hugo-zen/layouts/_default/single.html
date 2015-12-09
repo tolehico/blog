@@ -8,12 +8,14 @@
 	        <section class="masthead__single text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);">
 	        {{ end }}
     		<div class="masthead__hint">
+            <div class="cover_inner">
+                <p class="cover_date"><em><span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span></em></p>
+
       			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
-            	<em>Nom Nom Nom</em>
-            	<div class="author text__center">
+            	<p class="author">
         			<a class="profile-avatar" href="/"></a>
-        			<em><span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span></em>
-      			</div>
+                    <span>Toshi Kamei</span>
+      			</p>
     		</div>
   </section>
 
