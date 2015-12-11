@@ -6,9 +6,9 @@
 {{ range .Data.Pages }}
 		<li itemscope itemtype="http://schema.org/Blog">
 			{{ if isset .Params "eyecatch" }}
-			<section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}/images/eyecatch/{{ .Params.eyecatch }});"></section>
+			<a href="{{ .RelPermalink }}"><section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}/images/eyecatch/{{ .Params.eyecatch }});"></section></a>
 			{{ else }}
-	        <section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);"></section>
+	        <a href="{{ .RelPermalink }}"><section class="masthead__single masthead__index text__center" style="background-image: url({{ .Site.BaseUrl }}static/img/no-eyecatch.png);"></section></a>
 	        {{ end }}
 	        
 		<h2 class="list-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
