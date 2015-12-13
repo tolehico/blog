@@ -290,7 +290,7 @@ a {
 
 @media (max-width: 768px){
   .entry-list li{
-    margin: 40px 0 0;
+    margin: 0 0 30px;
   }
   .summary {
     padding: 1.5rem 5rem 0;
@@ -319,7 +319,7 @@ a {
   text-transform: uppercase;
   max-width: 275px;
   text-align: left;
-  margin: 30px 0 20px;
+  margin-top: 30px;
   padding: 0;
   font-size: 20px;
   letter-spacing: 0;
