@@ -1,10 +1,10 @@
-baseurl = "http://blog.tolehi.co/"
+baseurl = "http://temp.tolehi.co/"
 languageCode = "en-us"
 title = "tolehi.co"
 author = "tolehico"
 
 [params]
-	  logo      = "/images/logo.png"
+	  logo      = "images/logo.png"
 	  copyright = "tolehico All rights reserved."
 	  twitter   = "https://twitter.com/tolehico"
 	  facebook  = "https://www.facebook.com/t.kamei"
